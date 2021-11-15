@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.carousel-item {
+  height: 100vh;
+}
+
+.img-box {
+  width: 550px;
+  position: relative;
+}
+
+.pic-one {
+  width: 100%;
+}
+
+.pic-two {
+  width: 100px;
+  position: absolute;
+  left: 15px;
+  bottom: 20px;
+}
+
+.pic-three {
+  width: 75px;
+  position: absolute;
+  left: 150px;
+  bottom: 70px;
+}
+
+.pic-four {
+  width: 160px;
+  position: absolute;
+  right: 40px;
+  top: 110px;
+}
+
+.pic-five {
+  width: 100px;
+  position: absolute;
+  right: 20px;
+  bottom: 0;
+}
+
+.pic-six {
+  width: 160px;
+  position: absolute;
+  right: 160px;
+  bottom: 30px;
+}
+
+.img-one {
+  width: 100%;
+}
+
+.img-two {
+  width: 200px;
+  position: absolute;
+  left: 0px;
+  bottom: 20px;
+}
+
+.img-three {
+  width: 70px;
+  position: absolute;
+  left: 245px;
+  bottom: 55px;
+}
+
+.img-four {
+  width: 60px;
+  position: absolute;
+  right: 155px;
+  bottom: 95px;
+}
+
+.img-five {
+  width: 100px;
+  right: 50px;
+  bottom: 20px;
+  position: absolute;
+}
+.slide-one {
+  background-color: #b0c6f5;
+}
+
+.slide-two {
+  background-color: #f7f7f7;
+}
+
+.carousel-item.slide-two h1,
+.slide-two p {
+  color: #feb154;
+  margin-top: 12px;
+}
+
+.carousel-item .row {
+  margin: 12% 0;
+}
+
+.carousel-item h1 {
+  margin-top: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+.carousel-item .container .row .col-md-6 h3 {
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.carousel-item button {
+  padding: 8px 20px;
+  background: #0c5ce3;
+  border: 0;
+  outline: none;
+  color: white;
+  border-radius: 20px;
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+.carousel-control-prev .carousel-control-prev-icon {
+  width: 100px;
+  height: 3rem;
+  opacity: 1 !important;
+}
+
+.carousel-control-next .carousel-control-next-icon {
+  width: 100px;
+  height: 3rem;
+  opacity: 1 !important;
+}
+
+.carousel button {
+  opacity: 1 !important;
+}
+
+.carousel-control-next {
+  justify-content: flex-end !important;
+}
+
+.carousel-control-prev {
+  justify-content: flex-start !important;
+}
+
+button > a {
+  text-decoration: none;
+  color: white;
+}
